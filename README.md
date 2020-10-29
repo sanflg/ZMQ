@@ -1,10 +1,6 @@
 # ZMQ para Python
 > ZMQ es una librería para python que administra la relación con mql.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 ![](Resourses/images/1.png)
 
 ## Archivos y Carpetas del Repo
@@ -16,7 +12,8 @@ Requisitos para python.
 
 2- connector.py, execution.py y reporting.py:
 ```sh
-Hacen de modelo y contacto con mql, con todas las funciones definidas para trabajar (principalmente en connector).
+Hacen de modelo y contacto con mql, con todas las funciones definidas para trabajar 
+(principalmente en connector).
 ```
 
 3- strategy.py:
@@ -26,7 +23,8 @@ Oficia como constructor de estrategias (hereda de connector las funcionalidades)
 
 4- A-Historic.py, A-Rates.py y otros .py:
 ```sh
-Estrategias y pruebas (se encuentran en esa carpeta debido a problemas para importar desde otro directorio).
+Estrategias y pruebas (se encuentran en esa carpeta debido a problemas para importar 
+desde otro directorio).
 ```
 
 5- Resourses:
@@ -42,7 +40,8 @@ pip install -r pkgs.txt
 ```
 
 2- Copiar el Expert Advisor de ZMQ llamado `DWX_ZeroMQ_Server_v2.0.1_RC8`, que
-se encuentra en la carpeta `Resourses`. Luego, ir a MetaTrader, hacer click en `File>Open Data Folder`, ir a la carpeta `MQL4`, después ingresar en `Experts` y pegar el archivo
+se encuentra en la carpeta `Resourses`. Luego, ir a MetaTrader, hacer click en `File>Open Data Folder`, 
+ir a la carpeta `MQL4`, después ingresar en `Experts` y pegar el archivo
 ![](Resourses/images/1.png)
 
 3- Copiar los archivos `libsodium.dll` y `libzmq.dll` de la carpeta `Resourses`
@@ -88,7 +87,6 @@ Esto devolverá los datos el trade generado en caso de realizarse correctamente,
 y hacer click en la cruz, se cerrará el trade generado.
 
 ## Historial de versiones
-
 
 * 0.0.1
     * Hola Mundo!
