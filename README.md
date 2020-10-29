@@ -1,8 +1,6 @@
 # ZMQ para Python
 > ZMQ es una librería para python que administra la relación con mql.
 
-![](Resourses/images/1.png)
-
 ## Archivos y Carpetas del Repo
 
 1- pkgs.py:
